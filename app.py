@@ -11,7 +11,7 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__, static_folder='static')
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyD5JwpKqIm6B_bLHtEy-CU25Xk4XCksNhA"
+GEMINI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # --- Load the recommendation models ---
